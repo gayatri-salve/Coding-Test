@@ -1,24 +1,10 @@
-#3. Write a Python program to reverse words in a string 
+#3. Write a Python function to count the occurrences of a specific element in a list.
 
-#String = “Deeptech Python Training”
-def reverse_words(string):
-    # Split the string into words
-    words = string.split()
-    # Reverse the list of words
-    reversed_words = words[::-1]
-    # Join the reversed words back into a string
-    reversed_string = ' '.join(reversed_words)
-    return reversed_string
+def reverse_string(s):
+    return s[::-1]
 
-# Given string
-string = "Deeptech Python Training"
+# Example usage:
+original_string = "hello"
+reversed_string = reverse_string(original_string)
+print(reversed_string)  # Output: "olleh"
 
-# Reverse the words in the string
-reversed_string = reverse_words(string)
-
-# Print the result
-print(reversed_string)
-
-#Output
-
-#Training Python Deeptech
